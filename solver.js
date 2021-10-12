@@ -170,7 +170,7 @@ const validateFullGrid = grid => {
 }
 
 // Returns the solution if the solution found for a sudoku is valid
-// otherwise returns null
+// otherwise returns false and console logs the error
 // @param {array} grid - a 9x9 2 dimentional array
 // @returns {array}
 const getGridSolution = grid => {
